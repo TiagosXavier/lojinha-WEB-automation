@@ -71,7 +71,7 @@ public class ProdutosTest {
                 .accessNewProductForm()
                 .fillProductName("Macbook Pro")
                 .fillProductPrice("001")
-                .fillProductColor("Cinza")
+                .fillProductColor("Preto")
                 .submitAddFormWithSuccess()
                 .getToastMessage();
 
